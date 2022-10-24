@@ -4,15 +4,15 @@
 }
 
 .nav_bar {
-    width:100vw;
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-between;
+    border: solid black;
 }
 
 .nav_bar ul {
     display: flex;
-    width: 80vw;
+    width: 90%;
     text-decoration: none;
     list-style-type: none;
     justify-content: space-between;
