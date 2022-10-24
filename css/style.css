@@ -7,16 +7,22 @@
     width:100vw;
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:center;
 }
 
-.ul {
+.nav_bar ul {
+    display: flex;
     width: 80vw;
     text-decoration: none;
     list-style-type: none;
     justify-content: space-between;
+    align-items: center;
 }
 
-.li {
-    list-style-type:none;
+.nav_bar {
+    border: solid black;
+}
+
+.search {
+    width: 15vw;
 }
