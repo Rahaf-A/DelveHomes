@@ -1,6 +1,6 @@
 
 .main_img {
-    width:10vw;
+    width:15vw;
 }
 
 .nav_bar {
@@ -20,6 +20,11 @@
     padding:none;
 }
 
-.li {
-    width: 15%;
+.nav_bar {
+    border: solid black;
+    background-image: linear-gradient(transparent, rgb(135, 173, 250) );
+}
+
+.main_img_2 {
+    width: 5vw;
 }
