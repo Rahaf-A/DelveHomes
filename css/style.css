@@ -3,6 +3,8 @@
     width:15vw;
 }
 
+
+
 .nav_bar {
     display:flex;
     flex-direction:row;
@@ -102,5 +104,5 @@ footer {
 
     margin: 0% auto;
     
-    background-image: linear-gradient(transparent, rgb(135, 202, 250));
+    background-image: linear-gradient(transparent, rgb(50, 170, 255));
 }
