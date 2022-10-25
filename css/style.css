@@ -67,7 +67,6 @@ div.name {
 
 .form_submit {
     margin: 0% auto;
-
     background-color: #44b747; 
     border: 2px #44b747;
     border-radius: 15px;
@@ -77,11 +76,23 @@ div.name {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
-
 }
 
+.form_submit:active {
+    background-color:#319835;
+}
 
+#search {
+    border:solid black 1px;
+    border-radius: 10px;
+    padding:15px;
+}
+
+.search {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
 footer {
     display: flex;
