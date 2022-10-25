@@ -28,3 +28,20 @@
 .main_img_2 {
     width: 5vw;
 }
+
+.row-1 {
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    font-size:2vw;
+}
+
+.content_amen {
+    margin: 5px 15px;
+    border:solid black 2px;
+}
+
+.content_amen p {
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
