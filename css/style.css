@@ -33,15 +33,16 @@
     display:flex;
     justify-content:space-evenly;
     flex-direction:row;
-    font-size:2vw;
 }
 
 .content_amen {
     margin: 5px 15px;
     border:solid black 2px;
+    padding: 15px 15px;
 }
 
 .content_amen p {
+    font-size: 18px;
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
