@@ -45,3 +45,49 @@
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+div.name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form_title {
+    display: flex;
+    justify-content: center;
+}
+
+.form_submit {
+    margin: 0% auto;
+
+    background-color: #44b747; 
+    border: 2px #44b747;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border: 2px solid black;
+
+    margin: 0% auto;
+    
+}
