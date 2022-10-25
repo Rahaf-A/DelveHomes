@@ -3,7 +3,12 @@
     width:15vw;
 }
 
-
+.column {
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 48%;
+}
 
 .nav_bar {
     display:flex;
@@ -105,4 +110,11 @@ footer {
     margin: 0% auto;
     
     background-image: linear-gradient(transparent, rgb(50, 170, 255));
+}
+
+.tour,
+.prices {
+    display:flex;
+    flex-direction:row;
+    margin:10px 0px;
 }
