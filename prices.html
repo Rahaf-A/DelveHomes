@@ -31,15 +31,15 @@
                 <img src="" alt="" class="tours">
             </div>
             <div class="column">
-                <div class="dropdown">
-                    <button class="drpbtn">Tour's</button>
-                    <div class="drpdwn-content">
-                        <a href="">11:00am - 11:30am</a>
-                        <a href="">11:45am - 12:15pm</a>
-                        <a href="">12:30pm - 1:00pm</a>
-                    </div>
-                </div>
-                <button>Reserve</button>
+                <form action="">
+                    <label for="Tour">Choose a house Tour time</label>
+                    <select name="Tour" id="Tour">
+                        <option value="ell">11:00</option>
+                        <option value="ell-thir">11:30</option>
+                        <option value="twel">12:00</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit">
             </div>
         </div>
         <div class="prices">
@@ -49,15 +49,16 @@
                 <img src="" alt="">
             </div>
             <div class="column">
-                <div class="dropdown">
-                    <button class="drpbtn">Tour's</button>
-                    <div class="drpdwn-content">
-                        <a href="">1500$</a>
-                        <a href="">1600$</a>
-                        <a href="">1700$</a>
-                    </div>
-                </div>
-                <button>Buy</button>
+                <form action="">
+                    <label for="Prices">Choose a house price</label>
+                    <select name="Houses" id="Houses">
+                        <option value="1700">1700$</option>
+                        <option value="1600">1600$</option>
+                        <option value="1500">1500$</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </div>
