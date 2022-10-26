@@ -1,4 +1,6 @@
-
+body {
+    background-color: rgb(208, 233, 246);
+}
 .main_img {
     width:15vw;
 }
@@ -141,5 +143,9 @@ footer,
 select,
 input[type="submit"] {
     border-radius: 5px;;
+.image1 {
+    max-width: 100%;
+    height: auto;
+    border: none;
 }
 
