@@ -21,6 +21,7 @@
 }
 
 .nav_bar ul {
+    font-size:2vw;
     display: flex;
     width: 90%;
     text-decoration: none;
@@ -28,6 +29,12 @@
     justify-content: space-between;
     align-items: center;
     padding:none;
+}
+
+.nav_bar ul li a {
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
 }
 
 .nav_bar {
@@ -104,7 +111,8 @@ div.name {
     align-items:center;
 }
 
-footer {
+footer,
+.column {
     display: flex;
     flex-direction: column;
     width: 50vw;
@@ -120,25 +128,18 @@ footer {
     justify-content:center;
     align-items:center;
     margin:10px 0px;
-    border:solid black;
     height:100%;
 }
-
+ 
 .tours {
     display:flex;
     width:20vw; 
-}
-
-.tour-img {
-    display:flex;
     justify-content:center;
-    flex-direction:column;
-    align-items: center;
-    height:33.33vh;
+    align-items:center;
 }
 
-#form {
-    width:20vw;
-    min-height: fit-content;
-    margin:13.75vh;
+select,
+input[type="submit"] {
+    border-radius: 5px;;
 }
+
