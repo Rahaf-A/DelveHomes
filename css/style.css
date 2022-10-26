@@ -164,3 +164,9 @@ input[type="submit"] {
     background-attachment:fixed;
     border-radius: 8px;
     }
+
+.Hero {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 8px 8px;
+}
