@@ -2,6 +2,7 @@ body {
     /* background-color: #e0c0f8; */
     background-image: linear-gradient(transparent, rgb(220, 196, 232) );
 }
+
 .main_img {
     width:15vw;
 }
@@ -159,8 +160,15 @@ input[type="submit"] {
 /* coding the image in the index page */
 .image_1 {
     width: 100%;
-    height: auto;
+    height: ;
     background-image: url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png);
     background-attachment:fixed;
     border-radius: 8px;
+    filter: grayscale(20%);
+    padding: 100%;
     }
+
+/* coding the font on the index */
+.preview_pri_prev {
+    font-size: 60px;
+}
