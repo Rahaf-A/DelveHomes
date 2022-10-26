@@ -155,13 +155,9 @@ select,
 input[type="submit"] {
     border-radius: 5px;;
 }
-
-}
-
 /* coding the image in the index page */
 .image_1 {
     height: 50vh;
     width: 9vw;
     background-image: url(./1988-the-machine-stops-future-timeline.jpg);
     border: solid black;
-}
