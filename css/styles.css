@@ -136,16 +136,11 @@ select,input[type=\"submit\"]{
     border:solid #000;
     background-image:linear-gradient(transparent,#c58de0);
 }
-/* preview thing for about */
-.abt_prev {
-    text-align: center;
-    border-style: double;
-    width: 492px;
-    height: 200px;
-}
 
-/* preview thing for experience */
-.exp_prev {
+/* preview stuff for index */
+.exp_prev,
+.pri_prev,
+.abt_prev {
     text-align: center;
     border-style: double;
     width: 492px;
@@ -159,15 +154,6 @@ select,input[type=\"submit\"]{
     justify-content: center;
     padding: 20px;
     font-size: 15px;
-}
-
-/* preview for prices/tours */
-
-.pri_prev {
-    text-align: center;
-    border-style: double;
-    width: 492px;
-    height: 200px;
 }
 
 /* index page trying to align the three boxes */
