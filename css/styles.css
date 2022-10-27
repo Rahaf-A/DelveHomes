@@ -135,11 +135,23 @@ select,input[type=\"submit\"]{
     border:solid #000;
     background-image:linear-gradient(transparent,#c58de0);
 }
-/* preview thing for prices */
-.pri_prev{
-    font-size:10px;
+/* preview thing for about */
+.abt_prev {
     text-align: center;
     border-style: double;
+    width: 492px;
+    height: 200px;
+}
+
+.abt_prev p{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+    /* text-align: center;
+    border-style: double;
+    width: 492px;
+    height: 90px; */
 }
 /* row's */
 .row-1{
