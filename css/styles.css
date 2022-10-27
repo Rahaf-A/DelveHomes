@@ -153,6 +153,45 @@ select,input[type=\"submit\"]{
     width: 492px;
     height: 90px; */
 }
+
+/* preview thing for experience */
+.exp_prev {
+    text-align: center;
+    border-style: double;
+    width: 492px;
+    height: 200px;
+}
+
+.exp_prev p {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/* preview for prices/tours */
+
+.pri_prev {
+    text-align: center;
+    border-style: double;
+    width: 492px;
+    height: 200px;
+}
+
+.prip_prev p {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/* index page trying to align the three boxes */
+.main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 /* row's */
 .row-1{
     display:flex;
