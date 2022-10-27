@@ -134,11 +134,20 @@ footer {
     justify-content:center;
     flex-direction:column;
     align-items: center;
-    height:33.33vh;
+    height:33.33%;
+    min-height:fit-content;
 }
 
 #form {
+    height:33.33%;
     width:20vw;
     min-height: fit-content;
-    margin:13.75vh;
 }
+
+.nav_bar ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:black;
+    text-decoration: none;
+}
+
