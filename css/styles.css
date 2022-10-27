@@ -144,17 +144,6 @@ select,input[type=\"submit\"]{
     height: 200px;
 }
 
-.abt_prev p{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    font-size: 15px;
-    /* text-align: center;
-    border-style: double;
-    width: 492px;
-    height: 90px; */
-}
-
 /* preview thing for experience */
 .exp_prev {
     text-align: center;
@@ -163,7 +152,9 @@ select,input[type=\"submit\"]{
     height: 200px;
 }
 
-.exp_prev p {
+.exp_prev p,
+.pri_prev p,
+.abt_prev p {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -179,15 +170,8 @@ select,input[type=\"submit\"]{
     height: 200px;
 }
 
-.prip_prev p {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    font-size: 15px;
-}
-
 /* index page trying to align the three boxes */
-.main {
+.main-2 {
     display: flex;
     justify-content: space-evenly;
 
