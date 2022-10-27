@@ -88,7 +88,7 @@ select,input[type=\"submit\"]{
     background-attachment:fixed;
     border-radius:9px;
     filter:grayscale(20%);
-    padding: 10% 0.02vw;
+    padding: 15% 0.05vw;
     height: auto;
 }
 
@@ -136,8 +136,10 @@ select,input[type=\"submit\"]{
     background-image:linear-gradient(transparent,#c58de0);
 }
 /* preview thing for prices */
-.preview_pri_prev{
-    font-size:60px;
+.pri_prev{
+    font-size:10px;
+    text-align: center;
+    border-style: double;
 }
 /* row's */
 .row-1{
