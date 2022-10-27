@@ -52,6 +52,12 @@ select,input[type=\"submit\"]{
     background-color:#319835;
 }
 
+.text {
+    padding:none;
+    border:none;
+    width: 6em;
+}
+
 .form_submit{
     margin:0 auto;
     background-color:#44b747;
@@ -78,13 +84,7 @@ select,input[type=\"submit\"]{
 /* img's */
 .image_1{
     width:100%;
-<<<<<<< Updated upstream
     background-image:url(../room.png);
-=======
-    /* background-image:url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png); */
-    background-image: url(../DALL·E\ 2022-10-26\ 15.03.02\ -\ futuristic\ purple\ hexagon\ room.png);
-    height: 200px;
->>>>>>> Stashed changes
     background-attachment:fixed;
     border-radius:9px;
     filter:grayscale(20%);
