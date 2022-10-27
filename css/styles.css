@@ -197,3 +197,30 @@ select,input[type=\"submit\"]{
     justify-content:center;
     align-items:center;
 }
+/* review stuff */
+.review {
+    font-size:1rem;
+    
+}
+
+.rev {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:50%;
+}
+
+.rev-cont {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    border:black solid;
+    margin:15px;
+}
+
+.review-img {
+    width:auto;
+    height:100px;
+
+}
