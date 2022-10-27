@@ -11,7 +11,7 @@ select,input[type=\"submit\"]{border-radius:5px}
 .form_submit{margin:0 auto;background-color:#44b747;border:2px #44b747;border-radius:15px;color:#fff;padding:5px 25px;text-align:center;text-decoration:none;display:inline-block;font-size:16px}
 .form_title{display:flex;justify-content:center}
 .form{display:flex;flex-direction:row;justify-content:center}
-.image_1{width:100%;background-image:url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png);background-attachment:fixed;border-radius:8px;filter:grayscale(20%);padding:100%}
+.image_1{width:100%;background-image:url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png);background-attachment:fixed;border-radius:8px;filter:grayscale(20%);padding:100% 0.01vw;}
 .main_img_2{width:5vw}
 .main_img{width:15vw}
 .nav_bar ul li a{text-decoration:none;background-color:transparent solid;padding:10px}

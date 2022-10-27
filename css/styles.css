@@ -82,7 +82,7 @@ select,input[type=\"submit\"]{
     background-attachment:fixed;
     border-radius:8px;
     filter:grayscale(20%);
-    padding:100%;
+    padding: 100% 0.01vw;
 }
 
 .main_img_2{
