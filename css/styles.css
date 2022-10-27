@@ -1,4 +1,5 @@
-body{background-image:url(hex.png);
+body{
+    background-image:url(hex.png);
     background-attachment:fixed;
 }
  /* div / footer things with column and rows */
