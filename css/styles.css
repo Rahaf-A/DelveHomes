@@ -78,11 +78,18 @@ select,input[type=\"submit\"]{
 /* img's */
 .image_1{
     width:100%;
+<<<<<<< Updated upstream
     background-image:url(../room.png);
+=======
+    /* background-image:url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png); */
+    background-image: url(../DALL·E\ 2022-10-26\ 15.03.02\ -\ futuristic\ purple\ hexagon\ room.png);
+    height: 200px;
+>>>>>>> Stashed changes
     background-attachment:fixed;
-    border-radius:8px;
+    border-radius:9px;
     filter:grayscale(20%);
-    padding: 100% 0.01vw;
+    padding: 10% 0.02vw;
+    height: auto;
 }
 
 .main_img_2{
