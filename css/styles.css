@@ -78,7 +78,7 @@ select,input[type=\"submit\"]{
 /* img's */
 .image_1{
     width:100%;
-    background-image:url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png);
+    background-image:url(../room.png);
     background-attachment:fixed;
     border-radius:8px;
     filter:grayscale(20%);
