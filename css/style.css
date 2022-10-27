@@ -162,7 +162,6 @@ input[type="submit"] {
 /* coding the image in the index page */
 .image_1 {
     width: 100%;
-    height: ;
     background-image: url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png);
     background-attachment:fixed;
     border-radius: 8px;
