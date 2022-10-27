@@ -1,27 +1,27 @@
 /* if need be super short  */
-body{background-image:url(hex.png);background-attachment:fixed}
-div.name{width:100%;padding:12px 20px;margin:8px 0;box-sizing:border-box}
-footer,.column,.row{display:flex;flex-direction:column;width:50vw;border:2px solid #000;margin:0 auto;background-image:linear-gradient(transparent,#b97cd7)}
-select,input[type=\"submit\"]{border-radius:5px}
-.Hero{width:100%;height:auto;border-radius:0 0 8px 8px}
-.column{display:flex;justify-content:space-around;flex-direction:column;width:48%;border:solid #000;margin:1%;height:100%}
-.content_amen p{text-decoration:none;font:18px Georgia,"\'Times New Roman\'",Times,serif}
-.content_amen{margin:5px 15px;border:solid #000 2px;padding:15px}
-.form_submit:active{background-color:#319835}
-.form_submit{margin:0 auto;background-color:#44b747;border:2px #44b747;border-radius:15px;color:#fff;padding:5px 25px;text-align:center;text-decoration:none;display:inline-block;font-size:16px}
-.form_title{display:flex;justify-content:center}
-.form{display:flex;flex-direction:row;justify-content:center}
+body{background-image:url(hex.png);background-attachment:fixed;}
+div.name{width:100%;padding:12px 20px;margin:8px 0;box-sizing:border-box;}
+footer,.column,.row{display:flex;flex-direction:column;width:50vw;border:2px solid #000;margin:0 auto;background-image:linear-gradient(transparent,#b97cd7);}
+select,input[type=\"submit\"]{border-radius:5px;}
+.Hero{width:100%;height:auto;border-radius:0 0 8px 8px;}
+.column{display:flex;justify-content:space-around;flex-direction:column;width:48%;border:solid #000;margin:1%;height:100%;}
+.content_amen p{text-decoration:none;font:18px Georgia,"\'Times New Roman\'",Times,serif;}
+.content_amen{margin:5px 15px;border:solid #000 2px;padding:15px;}
+.form_submit:active{background-color:#319835;}
+.form_submit{margin:0 auto;background-color:#44b747;border:2px #44b747;border-radius:15px;color:#fff;padding:5px 25px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;}
+.form_title{display:flex;justify-content:center;}
+.form{display:flex;flex-direction:row;justify-content:center;}
 .image_1{width:100%;background-image:url(../DALL·E\ 2022-10-26\ 15.02.59\ -\ futuristic\ purple\ hexagon\ room.png);background-attachment:fixed;border-radius:8px;filter:grayscale(20%);padding:100% 0.01vw;}
-.main_img_2{width:5vw}
-.main_img{width:15vw}
-.nav_bar ul li a{text-decoration:none;background-color:transparent solid;padding:10px}
-.about:hover,.experience:hover,.amenities:hover,.prices:hover{margin:15px 0;background-color:#f3a0f3;border-radius:15px}
-.nav_bar ul{display:flex;width:100%;text-decoration:none;list-style-type:none;justify-content:space-between;align-items:center;padding:none;font:700 2vw "\'Times New Roman\'",Times,serif}
-.nav_bar{display:flex;flex-direction:row;justify-content:space-between;border:solid #000;background-image:linear-gradient(transparent,#c58de0)}
-.preview_pri_prev{font-size:60px}
-.row-1{display:flex;justify-content:space-evenly;flex-direction:row}
-.row{display:flex;justify-content:space-around;flex-direction:row;width:48%;border:solid #000;margin:1%;height:100%}
-.search{display:flex;justify-content:center;align-items:center}
-#search{border:solid #000 1px;border-radius:10px;padding:15px}
-.tour,.price{display:flex;flex-direction:row;justify-content:center;align-items:center;margin:10px 0;height:100%}
-.tours{display:flex;width:20vw;justify-content:center;align-items:center}
+.main_img_2{width:5vw;}
+.main_img{width:15vw;}
+.nav_bar ul li a{text-decoration:none;background-color:transparent solid;padding:10p;}
+.about:hover,.experience:hover,.amenities:hover,.prices:hover{margin:15px 0;background-color:#f3a0f3;border-radius:15px;}
+.nav_bar ul{display:flex;width:100%;text-decoration:none;list-style-type:none;justify-content:space-between;align-items:center;padding:none;font:700 2vw "\'Times New Roman\'",Times,serif;}
+.nav_bar{display:flex;flex-direction:row;justify-content:space-between;border:solid #000;background-image:linear-gradient(transparent,#c58de0);}
+.preview_pri_prev{font-size:60px;}
+.row-1{display:flex;justify-content:space-evenly;flex-direction:row;}
+.row{display:flex;justify-content:space-around;flex-direction:row;width:48%;border:solid #000;margin:1%;height:100%;}
+.search{display:flex;justify-content:center;align-items:center;}
+#search{border:solid #000 1px;border-radius:10px;padding:15px;}
+.tour,.price{display:flex;flex-direction:row;justify-content:center;align-items:center;margin:10px 0;height:100%;}
+.tours{display:flex;width:20vw;justify-content:center;align-items:center;}
