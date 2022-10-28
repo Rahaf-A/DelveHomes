@@ -91,15 +91,6 @@ select,input[type=\"submit\"]{
     justify-content:center;
 }
 /* img's */
-.image_1{
-    width:100%;
-    background-image:url(../room.png);
-    background-attachment:fixed;
-    border-radius:9px;
-    filter:grayscale(20%);
-    padding: 15% 0.05vw;
-    height: auto;
-}
 
 .main_img_2{
     width:5vw;
