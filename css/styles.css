@@ -40,14 +40,22 @@ select,input[type=\"submit\"]{
 /* content for the amenities */
 .content_amen p{
     text-decoration:none;
-    font:18px Georgia,\'Times New Roman\',Times,serif;
+    font-size:1.5rem;
+    font-weight:lighter;
 }
 
 .content_amen{
     margin:5px 15px;
     border:solid #000 2px;
     padding:15px;
+    font: Georgia,\'Times New Roman\',Times,serif;
 }
+
+.content_amen h2 {
+    font-size:2rem;
+    font-weight:bolder;
+}
+
 /* form stuff */
 .form_submit:active{
     background-color:#319835;
@@ -137,6 +145,11 @@ select,input[type=\"submit\"]{
     background-image:linear-gradient(transparent,#c58de0);
 }
 
+a:after,
+a:before {
+    color:#b97cd7;
+}
+
 /* preview stuff for index */
 .exp_prev,
 .pri_prev,
@@ -222,15 +235,15 @@ select,input[type=\"submit\"]{
 
 .rev-cont {
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
-    flex-direction:column;
+    flex-direction:row;
     border:black solid;
     margin:15px;
+    background-image:linear-gradient(transparent,#c58de0);
 }
 
 .review-img {
     width:auto;
     height:100px;
-
 }
