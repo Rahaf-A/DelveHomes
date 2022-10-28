@@ -183,6 +183,8 @@ a:before {
     margin:1%;
     height:100%;
 }
+
+
 /* search  */
 .search{
     display:flex;
@@ -237,4 +239,11 @@ a:before {
 .review-img {
     width:auto;
     height:100px;
+}
+
+
+.strt_curr {
+    padding:15px;
+    margin:15px;
+    border:solid black;
 }
