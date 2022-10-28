@@ -1,6 +1,5 @@
 body{
-    background-image:url(hex.png);
-    background-attachment:fixed;
+    background-color:#0062ff31
 }
  /* div / footer things with column and rows */
 div.name{
@@ -94,6 +93,7 @@ select,input[type=\"submit\"]{
 
 .main_img_2{
     width:5vw;
+    margin:1vw;
 }
 
 .main_img{
@@ -241,9 +241,17 @@ a:before {
     height:100px;
 }
 
-
+/* extra stuff / random */
 .strt_curr {
     padding:15px;
     margin:15px;
     border:solid black;
+}
+
+.blue-casc {
+    background-image: linear-gradient(#c58de0, rgb(143, 216, 255));
+}
+
+.purp-casc {
+    background-image:linear-gradient(rgb(143, 216, 255),#c58de0);
 }
