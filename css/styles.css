@@ -15,6 +15,7 @@ footer,.column,.row{
     width:50vw;
     border:2px solid #000;
     margin:0 auto;
+    text-overflow:ellipsis;
     background-image:linear-gradient(transparent,#b97cd7);
 }
  /* input  */
@@ -156,8 +157,21 @@ a:before {
 .abt_prev p {
     display: flex;
     justify-content: center;
-    padding: 20px;
-    font-size: 15px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+.ind-btn {
+    border:solid black;
+    border-radius: 15px;
+    background-color:rgb(143, 216, 255);
+    font-size:10px;
+}
+
+.exp_prev a,
+.pri_prev a,
+.abt_prev a {
+    text-decoration:none;
 }
 
 /* index page trying to align the three boxes */
@@ -165,7 +179,7 @@ a:before {
     display: flex;
     justify-content: space-evenly;
     padding-top:15vh;
-    /* overflow:hidden; */
+    overflow:hidden;
 }
 
 /* row's */
