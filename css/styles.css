@@ -165,6 +165,7 @@ a:before {
     display: flex;
     justify-content: space-evenly;
     padding-top:15vh;
+    /* overflow:hidden; */
 }
 
 /* row's */
@@ -269,4 +270,8 @@ a:before {
     display:flex;
     justify-content:space-evenly;;
     flex-direction:row;
+}
+
+p {
+    overflow:hidden;
 }
