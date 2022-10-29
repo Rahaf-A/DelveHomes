@@ -255,3 +255,18 @@ a:before {
 .purp-casc {
     background-image:linear-gradient(rgb(143, 216, 255),#c58de0);
 }
+
+.staff {
+    font-size:.8rem;
+    border:solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.staff-2 {
+    display:flex;
+    justify-content:space-evenly;;
+    flex-direction:row;
+}
