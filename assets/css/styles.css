@@ -106,6 +106,16 @@ input[type=\"submit\"]{
 .main_img{
     width:15vw
 }
+
+.paofue {
+    width: 100%;
+}
+
+.rahaf {
+    width: 438.46px;
+    height: 438.46px;
+}
+
 /* nav */
 .nav_bar ul li a {
     text-decoration:none;
