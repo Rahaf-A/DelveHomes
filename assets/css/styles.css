@@ -8,7 +8,6 @@ div.name{
     margin:8px 0;
     box-sizing:border-box;
 }
-
 footer,
 .column,
 .row {
@@ -30,7 +29,7 @@ input[type=\"submit\"]{
 /* img */
 .Hero{
     
-    width:80%;
+    width:100%;
     height:auto;
     border-radius:8px;
 }
