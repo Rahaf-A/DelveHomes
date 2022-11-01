@@ -112,7 +112,10 @@ input[type=\"submit\"]{
     width: 100%;
 }
 
-
+.staff {
+    width: 100%;
+    height: auto;
+}
 
 /* nav */
 .nav_bar ul li a {
