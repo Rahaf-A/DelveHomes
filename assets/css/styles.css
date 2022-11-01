@@ -308,9 +308,7 @@ p {
 
 .impor_person {
     width:31%;
-    border:solid black;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    height:auto;
 }
 
 .squirgle {
@@ -343,6 +341,7 @@ p {
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    height:20vh;
 }
 
 .row-foot p {
