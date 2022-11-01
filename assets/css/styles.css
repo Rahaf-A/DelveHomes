@@ -107,14 +107,12 @@ input[type=\"submit\"]{
     width:15vw
 }
 
-.paofue {
+.paofue,
+.rahaf {
     width: 100%;
 }
 
-.rahaf {
-    width: 438.46px;
-    height: 438.46px;
-}
+
 
 /* nav */
 .nav_bar ul li a {
