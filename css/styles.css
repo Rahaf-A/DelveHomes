@@ -4,7 +4,7 @@ body{
  /* div / footer things with column and rows */
 div.name{
     width:100%;
-    padding:12px 20px;
+    padding:6px 8px;
     margin:8px 0;
     box-sizing:border-box;
 }
