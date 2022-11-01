@@ -198,6 +198,7 @@ a:before {
 .row-1{
     display:flex;
     justify-content:space-evenly;
+    align-items:center;
     flex-direction:row;
 }
 
@@ -324,4 +325,27 @@ p {
 
 .h10 {
     height:10%;
+}
+
+.cont {
+    display:flex;
+    flex-direction:column;
+
+}
+
+.row-foot {
+    display:flex;
+    flex-direction:row;
+}
+
+.foot {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-foot p {
+    font-size:0.7rem;
+    margin: 0px 5px;
 }
