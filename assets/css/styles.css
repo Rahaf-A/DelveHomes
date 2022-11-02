@@ -1,6 +1,11 @@
 body{
     background-color:#0062ff31
 }
+
+* {
+    font-family: monospace;
+}
+
  /* div / footer things with column and rows */
 div.name{
     width:100%;
