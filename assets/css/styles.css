@@ -356,7 +356,12 @@ a:before {
 }
 
 p {
-    overflow:hidden;
+    overflow:ellipsis;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 .impor_person {
