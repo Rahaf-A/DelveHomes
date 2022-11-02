@@ -209,8 +209,15 @@ a:before {
 .main-2 {
     display: flex;
     justify-content: space-evenly;
-    padding-top:15vh;
+    /* padding-top:15vh; */
     overflow:hidden;
+}
+
+/* index */
+.hometext {
+    text-align: center;
+    font-size: 20px;
+    padding: 5%;
 }
 
 /* row's */
