@@ -233,7 +233,7 @@ a:before {
 .hometext {
     text-align: center;
     font-size: 1rem;
-    padding: 5%;
+    padding: 3%;
 }
 
 .herotext {
@@ -362,8 +362,8 @@ a:before {
     flex-direction:row;
 }
 
-div p {
-    overflow:ellipsis;
+p {
+    overflow:hidden;
 }
 
 .impor_person {
