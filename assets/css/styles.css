@@ -47,9 +47,14 @@ input[type=\"submit\"]{
 }
 /* img */
 .Hero{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pagebg.png);
+    background-size: cover;
+    background-position: center;
     width:100%;
-    height:auto;
+    height:70vh;
     border-radius:8px;
 }
 /* column for prices.html */
@@ -218,6 +223,11 @@ a:before {
     text-align: center;
     font-size: 20px;
     padding: 5%;
+}
+
+.herotext {
+    font-size: 5rem;
+    background-color: #faf4f441;
 }
 
 /* row's */
