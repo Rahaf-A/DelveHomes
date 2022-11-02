@@ -1,5 +1,6 @@
 body{
-    background-color:#0062ff31
+    background-color:#0062ff31;
+    margin:0px;
 }
 
 * {
@@ -13,7 +14,20 @@ div.name{
     margin:8px 0;
     box-sizing:border-box;
 }
-footer,
+
+footer {
+    background-color:rgba(107, 188, 255, 0.199);
+    color:white;
+    width:100vw;
+    margin:none;
+    padding:none;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+}
+
 .column,
 .row {
     display:flex;
@@ -342,15 +356,11 @@ p {
     flex-direction:row;
 }
 
-.foot {
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    height:20vh;
-}
-
 .row-foot p {
     font-size:0.7rem;
     margin: 0px 5px;
+}
+
+.content {
+    margin:8px;
 }
