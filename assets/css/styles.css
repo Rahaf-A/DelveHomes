@@ -227,9 +227,19 @@ a:before {
 }
 
 .herotext {
+    display: flex;
+    flex-direction: row;
     font-size: 6rem;
     font-weight: bolder;
     background-color: #faf4f441;
+}
+
+.dblue {
+    color: #1B1564;
+}
+
+.lblue {
+    color: #2b9fd0;
 }
 
 /* row's */
