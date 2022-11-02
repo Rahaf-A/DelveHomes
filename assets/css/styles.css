@@ -228,9 +228,10 @@ a:before {
 }
 
 .herotext {
-    font-size: 6rem;
+    font-size: 8vh;
     font-weight: bolder;
     background-color: #faf4f441;
+    font-family: 'Handel Gothic D', sans-serif;
 }
 
 /* row's */
