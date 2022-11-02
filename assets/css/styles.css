@@ -18,8 +18,8 @@ div.name{
 }
 
 footer {
-    background-color:rgba(107, 188, 255, 0.199);
-    color:white;
+    background-image:linear-gradient(transparent,#6cb7e5);
+    color:rgb(44, 20, 227);
     width:100vw;
     margin:none;
     padding:none;
