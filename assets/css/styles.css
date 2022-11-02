@@ -226,7 +226,8 @@ a:before {
 }
 
 .herotext {
-    font-size: 5rem;
+    font-size: 6rem;
+    font-weight: bolder;
     background-color: #faf4f441;
 }
 
