@@ -236,6 +236,14 @@ a:before {
     font-family: 'Handel Gothic D', sans-serif;
 }
 
+.dblue {
+    color: #1B1564;
+}
+
+.lblue {
+    color: #2b9fd0;
+}
+
 /* row's */
 .row-1{
     display:flex;
