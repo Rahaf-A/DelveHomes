@@ -126,7 +126,6 @@ input[type=\"submit\"]{
     width:15vw
 }
 
-.paofue,
 .rahaf {
     width: 100%;
 }
@@ -140,14 +139,13 @@ input[type=\"submit\"]{
 .nav_bar ul li a {
     text-decoration:none;
     background-color:transparent solid;
-    padding:10px;
+    padding:0px 5px;
 }
 
 .about:hover,
 .experience:hover,
 .amenities:hover,
 .prices:hover {
-    margin:15px 0px;
     background-color:rgb(243, 160, 243);
     border-radius: 15px;
 }
@@ -155,14 +153,17 @@ input[type=\"submit\"]{
 .nav_bar ul{
     font-size:2vw;
     display:flex;
-    width:100%;
     text-decoration:none;
     list-style-type:none;
     justify-content:space-between;
     align-items:center;
-    padding:none;
+    padding:0px;
     font-family:\'Times New Roman\',Times,serif;
     font-weight:700;
+}
+
+.nav_bar ul li {
+    padding:15px 5px; 
 }
 
 .nav_bar{
