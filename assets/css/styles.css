@@ -4,7 +4,9 @@ body{
 }
 
 * {
-    font-family: monospace;
+    font-family: 'Handel Gothic D', sans-serif;
+                                                
+    /* font-family: monospace; */
 }
 
  /* div / footer things with column and rows */
