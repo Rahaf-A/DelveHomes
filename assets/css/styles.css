@@ -205,7 +205,7 @@ a:before {
     text-align: center;
     border-style: double;
     width: 492px;
-    height: 200px;
+    height: fit-content;
 }
 
 .preview p {
@@ -456,5 +456,14 @@ u {
 }
 
 .pixel-13 {
-    font-size:13px;
+    font-size:17px;
+}
+
+.fontindex {
+    font-size: 30px;
+}
+
+.index-imgs {
+    width: 100%;
+    height: auto;;
 }
