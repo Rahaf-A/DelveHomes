@@ -5,6 +5,7 @@ body{
 
 p {
     font-family: monospace;
+    overflow:hidden;
 }
 
  /* div / footer things with column and rows */
@@ -23,7 +24,7 @@ div.name{
 footer {
     background-image:linear-gradient(transparent,#6cb7e5);
     color:rgb(44, 20, 227);
-    width:100vw;
+    width:100%;
     margin:none;
     padding:none;
     display:flex;
@@ -87,7 +88,7 @@ input[type=\"submit\"]{
 }
 
 .content_amen{
-    margin:5px 15px;
+    margin:15px 15px;
     border:solid #000 2px;
     padding:15px;
     font: Georgia,\'Times New Roman\',Times,serif;
