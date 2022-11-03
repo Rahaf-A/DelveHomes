@@ -212,7 +212,6 @@ a:before {
     display: flex;
     justify-content: center;
     padding: 0px;
-    font-size: 1rem;
 }
 
 .ind-btn {
@@ -308,8 +307,7 @@ a:before {
 }
 /* review stuff */
 .review {
-    font-size:1rem;
-    
+    font-size:10px;;  
 }
 
 .rev {
@@ -328,8 +326,10 @@ a:before {
     margin:5px;
     width: 40%;
     border-top-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-    background-image:linear-gradient(transparent,#c58de0);
+    border-bottom-right-radius: 5px;
+    background-image: radial-gradient(#6cb7ef, transparent);
+    height:20vh;
+    font-size:13px;
 }
 
 .review-img {
@@ -366,10 +366,6 @@ a:before {
     display:flex;
     justify-content:space-evenly;;
     flex-direction:row;
-}
-
-p {
-    overflow:hidden;
 }
 
 .impor_person {
@@ -457,4 +453,8 @@ u {
     display:flex;
     justify-content: center;
     margin:0px;
+}
+
+.pixel-13 {
+    font-size:13px;
 }
