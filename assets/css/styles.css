@@ -319,7 +319,8 @@ a:before {
     align-items:center;
     flex-direction:row;
     border:black solid;
-    margin:15px;
+    margin:5px;
+    width: 40%;
     border-top-left-radius: 5px;
         border-bottom-right-radius: 5px;
     background-image:linear-gradient(transparent,#c58de0);
@@ -411,5 +412,29 @@ p {
     flex-grow: 1;
     -ms-flex-align: center;
     align-items: center;
+}
+
+/*experience page */
+    /* rearranging the reviews */
+.experi-rev {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    width: 50%;
 }
 
