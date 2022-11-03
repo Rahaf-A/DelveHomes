@@ -15,6 +15,13 @@ div.name{
     box-sizing:border-box;
 }
 
+.where-at {
+    width:100%;
+    padding:6px 8px;
+    margin:8px 0;
+    box-sizing:border-box;
+}
+
 footer {
     background-image:linear-gradient(transparent,#6cb7e5);
     color:rgb(44, 20, 227);
@@ -410,4 +417,3 @@ p {
     -ms-flex-align: center;
     align-items: center;
 }
-
