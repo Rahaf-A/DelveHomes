@@ -136,12 +136,12 @@ input[type=\"submit\"]{
 /* img's */
 
 .main_img_2{
-    width:5vw;
+    width:6vw;
     margin:1vw;
 }
 
 .main_img{
-    width:15vw
+    width:10vw;
 }
 
 .rahaf {
@@ -170,6 +170,8 @@ input[type=\"submit\"]{
 
 .nav_bar ul{
     width:100%;
+    margin: 5px;
+    max-height: fit-content;
     font-size:2vw;
     display:flex;
     text-decoration:none;
