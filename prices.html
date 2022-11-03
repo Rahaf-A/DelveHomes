@@ -11,7 +11,8 @@
     <style>
         @import url('https://fonts.cdnfonts.com/css/handel-gothic-d');
 </style>
-
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script type="module" src="./assets/js/index.js"></script>
 </head>
 
 <body>
@@ -37,8 +38,6 @@
             <div class="price"> 
                 <div class="column blue-casc">
                     <img src="./assets/img/DALL·E 2022-10-26 15.02.12 - futuristic purple hexagon home.png" alt="" class="tours">
-                    <!-- <img src="./assets/img/DALL·E 2022-10-26 15.01.18 - purple hexagon room.png" alt="" class="tours">
-                    <img src="./assets/img/DALL·E 2022-10-26 15.03.00 - futuristic purple hexagon room.png" alt="" class="tours"> -->
                 </div>
                 <div class="column blue-casc">
                     <h1 style="display:flex; justify-content:center;">Take a tour</h1>
@@ -65,16 +64,25 @@
                 </div>
             </div>
             <div class="price">
+                <div class="map-style purp-casc column">
+                <h3>Find a place where you would like to live at.</h3>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.6349100279463!2d-119.69988825059711!3d36.80330297984944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945dbd0d5327d7%3A0x9923970ee0715d1f!2sThe%20Center%20for%20Advanced%20Research%20and%20Technology!5e0!3m2!1sen!2sus!4v1667509806018!5m2!1sen!2sus" width="90%" height="90%" style="border:0; margin:auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
                 <div class="column purp-casc">
                     <h1 style="display:flex; justify-content:center;">House Prices</h1>
-                    <img src="./assets/img/DelveHomes-Transparent.png" alt=""class="tours">
-                    <label for="Prices">Choose a house price</label>
-                        <select class="h10" name="Houses" id="Houses">
+                    <label for="Prices">Choose a Price</label>
+                        <select class="h10" name="tour" id="Houses">
                             <option value="1700">1700$</option>
                             <option value="1600">1600$</option>
                             <option value="1500">1500$</option>
                         </select>
-                    <div class="form prices-form">
+                        <div class="where-at">
+                            <div class="where-at">
+                                <div class="inp"><input type="text"class="text" placeholder="where is your location at?"></div>
+                            </div>
+                        </div>
+                    <div class="form ">
                         <div class="first_lastname">
                         <div class="name"><input type="text" class="text" placeholder="First Name"></div>
                             <div class="name"><input type="text" class="text" placeholder="Last Name"></div>
