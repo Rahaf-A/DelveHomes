@@ -4,10 +4,8 @@ body{
 }
 
 
-* {
-    font-family: 'Handel Gothic D', sans-serif;
-                                                
-    /* font-family: monospace; */
+p, {
+    font-family: monospace;
 }
 
  /* div / footer things with column and rows */
@@ -413,3 +411,4 @@ p {
     -ms-flex-align: center;
     align-items: center;
 }
+
