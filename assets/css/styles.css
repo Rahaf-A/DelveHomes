@@ -498,3 +498,22 @@ u {
 .amen_title {
     margin-top: 90px;
 }
+
+.experience-content {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+.experience-p {
+    padding:15px;
+    margin:15px;
+}
+
+.experience-main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
