@@ -85,10 +85,11 @@ input[type=\"submit\"]{
     text-decoration:none;
     font-size:1rem;
     font-weight:lighter;
+    width: 50%;
 }
 
 .content_amen{
-    margin:15px 15px;
+    margin:30px;
     border:solid #000 2px;
     padding:15px;
     font: Georgia,\'Times New Roman\',Times,serif;
@@ -470,4 +471,24 @@ u {
     margin-top: 10px;
 }
 
+.amen-imgs {
+    display: flex;
+    justify-content: right;
+    width: 40vh;
+    padding: 0px;
+}
 
+.arrange_amen_imgs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 30vh;
+}
+
+.amen_pt {
+    margin: 90px;
+}
+
+.amen_title {
+    margin-top: 90px;
+}
