@@ -480,7 +480,7 @@ u {
 .amen-imgs {
     display: flex;
     justify-content: right;
-    width: 40vh;
+    width: fit-content;
     padding: 0px;
 }
 
@@ -497,4 +497,18 @@ u {
 
 .amen_title {
     margin-top: 90px;
+}
+
+.amen-imgs1 {
+    display: flex;
+    justify-content: right;
+    width: 30vh;
+    padding: 0px;
+}
+
+.amen-imgs2 {
+    display: flex;
+    justify-content: right;
+    width: fit-content;
+    padding: 0px;
 }
