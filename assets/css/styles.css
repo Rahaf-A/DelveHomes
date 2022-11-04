@@ -308,7 +308,7 @@ a:before {
 }
 /* review stuff */
 .review {
-    font-size:10px;;  
+    margin:0px 0px 5px 0px;
 }
 
 .rev {
@@ -325,11 +325,11 @@ a:before {
     flex-direction:row;
     border:black solid;
     margin:5px;
-    width: 40%;
+    width: 45%;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-image: radial-gradient(#6cb7ef, transparent);
-    height:20vh;
+    height:110px;
     font-size:13px;
 }
 
@@ -457,7 +457,7 @@ u {
 }
 
 .pixel-13 {
-    font-size:17px;
+    font-size:11px;
 }
 
 .fontindex {
