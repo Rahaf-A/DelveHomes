@@ -203,11 +203,6 @@ input[type=\"submit\"]{
     border-radius: 10px;
 }
 
-a:after,
-a:before {
-    color:#b97cd7;
-}
-
 /* preview stuff for index */
 .preview {
     text-align: center;
@@ -529,4 +524,10 @@ u {
     flex-direction: column;
     justify-content: center;
     align-items:center;
+}
+
+a:after,
+a::content,
+a:before {
+    color: #b97cd7;
 }
